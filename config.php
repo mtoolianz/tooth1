@@ -2,7 +2,7 @@
 define('DB_HOST', 'localhost');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
-define('DB_NAME', 'tooth_care');
+define('DB_NAME', 'tooth_care1');
 
 define('BASE_PATH', __DIR__);
 define('CURRENT_DOMAIN', current_domain());
@@ -13,7 +13,7 @@ date_default_timezone_set('Asia/Colombo');
 
 function current_domain()
 {
-    return protocol() . $_SERVER['HTTP_HOST'] . '/tooth1';
+    return protocol() . $_SERVER['HTTP_HOST'] . '/tooth-care-app';
     // return protocol() . $_SERVER['HTTP_HOST'];
 }
 
