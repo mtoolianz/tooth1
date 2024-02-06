@@ -47,8 +47,8 @@ $treatments = $treatmentModel->getAll();
                                     <td>
                                         <div>
                                             <!-- TODO -->
-                                            <!-- <a class="btn btn-sm btn-info m-2" href="edit.php?id=<?= $c['id']; ?>">Edit</a>
-                                            <a class="btn btn-sm btn-danger m-2" href="#" onclick="confirmDelete(<?= $c['id']; ?>)">Delete</a> -->
+                                            <a class="btn btn-sm btn-info m-2" href="edit.php?id=<?= $c['id']; ?>">Edit</a>
+                                            <a class="btn btn-sm btn-danger m-2" href="#" onclick="confirmDelete(<?= $c['id']; ?>)">Delete</a>  
                                         </div>
                                     </td>
                                 </tr>

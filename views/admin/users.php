@@ -57,7 +57,6 @@ $users = $userModel->getAll();
                                         <div>
                                             <button class="btn btn-sm btn-info m-2 edit-user" data-id="<?= $c['id']; ?>">Edit</button>
                                             <button class="btn btn-sm btn-danger m-2 delete-user" data-id="<?= $c['id']; ?>">Delete</button>
-
                                         </div>
                                     </td>
                                 </tr>
